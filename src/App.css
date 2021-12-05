@@ -1,16 +1,31 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.post-editor{
+  margin: 0 20%;
+}
 
+post-editor-button{
+  float: right;
+  margin-top: 1em;
+}
+
+@media(max-width: 900px){
+  .post-editor{
+    margin: 1em;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+
 }
 
 .App-header {
